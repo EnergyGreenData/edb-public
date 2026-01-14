@@ -120,7 +120,7 @@ EDB evaluates six independent dimensions of operational readiness:
 
 ```bash
 # Clone repository
-git clone https://github.com/EGD2024/edb-public.git
+git clone https://github.com/EnergyGreenData/edb-public.git
 cd edb-public
 
 # Install client
@@ -205,13 +205,13 @@ Contact: research@energygreendata.com
 
 ```
 edb-public/
-├── dataset/              # 150 synthetic test cases
-├── evaluator/            # Generic black-box evaluator
-├── analysis/             # Statistical tests (Friedman, Bootstrap CI)
-├── docs/                 # Methodology, replication guide
-├── examples/             # Minimal system implementation
-└── scripts/              # Validation and reporting tools
+├── dataset/              # 150 synthetic test cases + metadata
+├── client/               # Python client for API evaluation
+├── docs/                 # Methodology and API documentation
+└── CITATION.cff          # Academic citation metadata
 ```
+
+**Note:** The evaluation engine and statistical analysis tools are operated as controlled services to protect benchmark integrity.
 
 ---
 
@@ -260,7 +260,7 @@ If you use EDB in your research, please cite:
   howpublished  = {Zenodo},
   doi           = {10.5281/zenodo.XXXXXXX},
   url           = {https://doi.org/10.5281/zenodo.XXXXXXX},
-  note          = {\url{https://github.com/EGD2024/edb-public}}
+  note          = {\url{https://github.com/EnergyGreenData/edb-public}}
 }
 ```
 
@@ -277,15 +277,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
-
-**Note:** EDB-X (adversarial cases) are not published to prevent benchmark gaming and overfitting.
-
----
-
-## Repository Structure
+## Repository Structure (Detailed)
 
 ```
 edb-public/
@@ -310,11 +302,10 @@ edb-public/
     ├── METHODOLOGY.md                 # Detailed methodology
     ├── API_SCORING_CONTRACT.md        # API scoring specification by tier
     ├── PAPER_LIMITATIONS_SECTION.md   # Limitations section for academic papers
-    ├── WEB_DISCLAIMER.md              # Disclaimers for web/documentation
-    └── FAQ.md                         # Frequently asked questions
+    └── WEB_DISCLAIMER.md              # Disclaimers for web/documentation
 ```
 
-**Note:** The evaluation engine is operated as a controlled service. Systems are evaluated through the official API using the client provided in `client/`. This ensures consistent evaluation and protects against benchmark gaming.
+**Note:** The evaluation engine and statistical analysis tools are operated as controlled services to protect benchmark integrity. Systems are evaluated through the official API using the client provided in `client/`.
 
 ---
 
@@ -342,8 +333,6 @@ See [`docs/WEB_DISCLAIMER.md`](docs/WEB_DISCLAIMER.md) for detailed beta status 
 ---
 
 ## Evaluation Dimensions
-
-Detailed documentation for each dimension is available in [`docs/DIMENSIONS.md`](docs/DIMENSIONS.md).
 
 ### Dimension 1: Logical Consistency
 
@@ -411,7 +400,7 @@ Results published in our paper demonstrate:
 - **Bootstrap CI:** 10,000 iterations, 95% confidence intervals
 - **Sample size:** n=150 (EDB-P) + n=50 (EDB-X, reserved)
 
-See [`analysis/`](analysis/) for implementation details.
+**Note:** Statistical analysis scripts are maintained internally to protect benchmark integrity. Results are fully documented in the published paper.
 
 ---
 
@@ -427,7 +416,7 @@ If you use EDB in your research, please cite:
   howpublished  = {Zenodo},
   doi           = {10.5281/zenodo.XXXXXXX},
   url           = {https://doi.org/10.5281/zenodo.XXXXXXX},
-  note          = {\url{https://github.com/EGD2024/edb-public}}
+  note          = {\url{https://github.com/EnergyGreenData/edb-public}}
 }
 ```
 
@@ -437,9 +426,14 @@ If you use EDB in your research, please cite:
 
 ## Contributing
 
-We welcome contributions! Please see [`CONTRIBUTING.md`](docs/CONTRIBUTING.md) for guidelines.
+We welcome contributions to improve the benchmark and documentation.
 
 **Note:** EDB-X (adversarial cases) are not published to prevent benchmark gaming and overfitting.
+
+**To contribute:**
+- Report issues or suggest improvements via GitHub Issues
+- Submit documentation improvements via Pull Requests
+- Contact research@energygreendata.com for research collaborations
 
 ---
 
