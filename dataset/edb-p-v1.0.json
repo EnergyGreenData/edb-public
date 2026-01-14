@@ -1,0 +1,3330 @@
+{
+  "metadata": {
+    "name": "EDB-P",
+    "version": "1.0.0",
+    "description": "Energy Decision Benchmark - Public Dataset",
+    "total_cases": 150,
+    "dimensions": [
+      "logical_consistency",
+      "counterfactual_robustness",
+      "regulatory_compliance",
+      "data_sufficiency",
+      "temporal_prediction",
+      "multiturn_coherence"
+    ],
+    "created_at": "2026-01-12T19:52:29.700335",
+    "license": "CC BY 4.0"
+  },
+  "test_cases": [
+    {
+      "case_id": "edb-p-001",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-002",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-003",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-004",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-005",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-006",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-007",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-008",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-009",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-010",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-011",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-012",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-013",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-014",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-015",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-016",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-017",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-018",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-019",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-020",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-021",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-022",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-023",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-024",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-025",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-026",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-027",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-028",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": true,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-029",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": true
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-030",
+      "dimension": "logical_consistency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "tariff": "2.0TD",
+        "contracted_power_p1": 5.75,
+        "contracted_power_p2": 5.75,
+        "annual_consumption": 3500,
+        "has_solar": false
+      },
+      "evaluation_criteria": {
+        "logical_consistency": {
+          "expects_contradiction": false,
+          "description": "Detectar contradicciones en configuración"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-031",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-032",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-033",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-034",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-035",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-036",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-037",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-038",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-039",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-040",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-041",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-042",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-043",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-044",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-045",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-046",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-047",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-048",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-049",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-050",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-051",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-052",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-053",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-054",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 0,
+        "battery_capacity": 0
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": false,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-055",
+      "dimension": "counterfactual_robustness",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "baseline_consumption": 4000,
+        "solar_production": 2000,
+        "battery_capacity": 10
+      },
+      "evaluation_criteria": {
+        "counterfactual_robustness": {
+          "expects_change": true,
+          "description": "Evaluar impacto de variaciones"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-056",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-057",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-058",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-059",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-060",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-061",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-062",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-063",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-064",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-065",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-066",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-067",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-068",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-069",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-070",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-071",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-072",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-073",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-074",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-075",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-076",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-077",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-078",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-079",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-080",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-081",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-082",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-083",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": false
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-084",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 15,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": true,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-085",
+      "dimension": "regulatory_compliance",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "installation_power": 25,
+        "tariff": "2.0TD",
+        "has_certificate": true
+      },
+      "evaluation_criteria": {
+        "regulatory_compliance": {
+          "is_compliant": false,
+          "description": "Verificar cumplimiento normativo"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-086",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": null,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-087",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-088",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-089",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": null,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-090",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-091",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-092",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": null,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-093",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-094",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-095",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": null,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-096",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-097",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-098",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": null,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-099",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-100",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-101",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": null,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-102",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-103",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-104",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": "ES0022...",
+        "consumption": null,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": true,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-105",
+      "dimension": "data_sufficiency",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "cups": null,
+        "consumption": 3500,
+        "tariff": "2.0TD"
+      },
+      "evaluation_criteria": {
+        "data_sufficiency": {
+          "has_sufficient_data": false,
+          "description": "Detectar datos insuficientes"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-106",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-107",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "decrease",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-108",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "stable",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-109",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-110",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "decrease",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-111",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "stable",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-112",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-113",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "decrease",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-114",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "stable",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-115",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-116",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "decrease",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-117",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "stable",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-118",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-119",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "decrease",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-120",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "stable",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-121",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-122",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "decrease",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-123",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "stable",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-124",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-125",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "decrease",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-126",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "stable",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-127",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-128",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "decrease",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-129",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "winter",
+        "solar_installed": false
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "stable",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-130",
+      "dimension": "temporal_prediction",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "historical_consumption": [
+          3000,
+          3200,
+          3500
+        ],
+        "season": "summer",
+        "solar_installed": true
+      },
+      "evaluation_criteria": {
+        "temporal_prediction": {
+          "expected_trend": "increase",
+          "description": "Predecir tendencia temporal"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-131",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "solar_added",
+        "context_changed": true
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-132",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-133",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-134",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "solar_added",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-135",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "none",
+        "context_changed": true
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-136",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-137",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "solar_added",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-138",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-139",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "none",
+        "context_changed": true
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-140",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "solar_added",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-141",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-142",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-143",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "solar_added",
+        "context_changed": true
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-144",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-145",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-146",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "solar_added",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-147",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "none",
+        "context_changed": true
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-148",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-149",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "accept",
+        "new_information": "solar_added",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": true,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    },
+    {
+      "case_id": "edb-p-150",
+      "dimension": "multiturn_coherence",
+      "scenario_type": "energy_decision",
+      "context": {
+        "country": "ES",
+        "domain": "electricity",
+        "user_type": "residential"
+      },
+      "input_data": {
+        "previous_decision": "reject",
+        "new_information": "none",
+        "context_changed": false
+      },
+      "evaluation_criteria": {
+        "multiturn_coherence": {
+          "expects_coherence": false,
+          "description": "Mantener coherencia multi-turno"
+        }
+      }
+    }
+  ]
+}

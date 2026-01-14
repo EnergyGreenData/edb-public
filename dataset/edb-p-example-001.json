@@ -1,0 +1,84 @@
+{
+  "id": "edb-p-001",
+  "version": "1.0.0",
+  "domain": "electricity",
+  "scenario_type": "tariff_optimization",
+  "difficulty": "easy",
+  
+  "input": {
+    "context": {
+      "country": "ES",
+      "cups": "ES0022000000000001AA",
+      "consumption_kwh_year": 3500,
+      "power_p1_kw": 4.6,
+      "power_p2_kw": 4.6,
+      "current_tariff": "2.0TD",
+      "contract_type": "residential"
+    },
+    "query": "¿Debería cambiar mi potencia contratada?"
+  },
+  
+  "evaluation_criteria": {
+    "dimension_1_logical_consistency": {
+      "should_detect_contradiction": false,
+      "rationale": "Tarifa 2.0TD permite potencias hasta 15kW, 4.6kW es válido",
+      "example": {
+        "description": "Tarifa 2.0TD es válida para potencia 4.6kW",
+        "note": "Illustrative example (non-exhaustive)"
+      }
+    },
+    "dimension_2_counterfactual": {
+      "should_be_robust_to": [
+        "consumption +/- 100 kWh",
+        "power +/- 0.1 kW"
+      ],
+      "should_not_change_recommendation": true,
+      "rationale": "Cambios menores no deben alterar decisión fundamental"
+    },
+    "dimension_3_regulatory": {
+      "must_comply_with": [
+        "RD 244/2019 (tarifas acceso)",
+        "Circular 3/2020 CNMC (peajes)"
+      ],
+      "forbidden_actions": [
+        "Recomendar potencia > 15kW en 2.0TD",
+        "Sugerir discriminación horaria sin datos horarios"
+      ],
+      "rationale": "Marco regulatorio español vigente"
+    },
+    "dimension_4_data_sufficiency": {
+      "has_sufficient_data": true,
+      "critical_fields_present": [
+        "consumption_kwh_year",
+        "power_p1_kw",
+        "power_p2_kw",
+        "current_tariff"
+      ],
+      "missing_critical_fields": [],
+      "rationale": "Datos mínimos para análisis de potencia presentes"
+    },
+    "dimension_5_temporal": {
+      "prediction_horizon_days": 0,
+      "requires_validation": false,
+      "rationale": "Análisis estático, sin predicción temporal"
+    },
+    "dimension_6_multiturn": {
+      "conversation_turns": 1,
+      "requires_memory": false,
+      "context_dependencies": [],
+      "rationale": "Pregunta autocontenida, sin dependencias previas"
+    }
+  },
+  
+  "metadata": {
+    "created_at": "2026-01-12",
+    "difficulty_score": 0.2,
+    "tags": ["tariff", "power", "residential", "spain"],
+    "expected_decision_types": [
+      "maintain_power",
+      "reduce_power",
+      "insufficient_data"
+    ],
+    "notes": "Caso base para validación de lógica tarifaria básica"
+  }
+}

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this benchmark in your research, please cite it as below."
+type: software
+title: "Energy Decision Benchmark (EDB-P): Public Dataset v1.0"
+version: 1.0.0
+date-released: 2026-01-15
+authors:
+  - family-names: "Diaz-Gonzalez"
+    given-names: "A. A."
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Energy Green Data"
+    email: "a.diaz@energygreendata.com"
+repository-code: "https://github.com/EGD2024/edb-public"
+url: "https://vertical-agi.ai/benchmark-2025"
+abstract: >
+  A reproducible benchmark for evaluating operational readiness of AI systems
+  in regulated energy domains. EDB evaluates observable decision behavior across
+  six independent dimensions: logical consistency, counterfactual robustness,
+  regulatory compliance, data sufficiency detection, temporal prediction, and
+  multi-turn coherence.
+keywords:
+  - benchmark
+  - energy systems
+  - AI evaluation
+  - decision intelligence
+  - critical infrastructure
+  - reproducibility
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.XXXXXXX"
+    description: "Zenodo DOI for v1.0.0 release"
+references:
+  - type: article
+    title: "Towards a Deterministic Vertical AGI for Energy Systems. A Semantic and Token-Based Architecture for Critical Domains"
+    authors:
+      - family-names: "Diaz-Gonzalez"
+        given-names: "A. A."
+    year: 2025
+    doi: "10.5281/zenodo.17178977"
+    url: "https://doi.org/10.5281/zenodo.17178977"
