@@ -155,16 +155,26 @@ See [`client/README.md`](client/README.md) for complete documentation.
 
 ## ⚠️ API Status
 
-**Note:** The evaluation API is currently in development and not yet publicly available.
+**Note:** The evaluation API is currently in **controlled beta** with selected research partners.
 
 **Current capabilities:**
 - ✅ **Browse dataset** - Available now (150 test cases)
 - ✅ **Download test cases** - Available now (JSON format)
 - ✅ **Review methodology** - Available now (full documentation)
-- ⏳ **Automated evaluation** - Coming soon
+- ✅ **Automated evaluation** - Beta access (controlled)
 
-**The evaluation API (planned) will be available under:**  
-`https://api.vertical-agi.ai/edb/v1`
+**API Access:**
+- **Beta Access:** Available for research partners and academic institutions
+- **Public Access:** Planned for Q2 2026 (pending evaluator improvements)
+- **Endpoint:** `https://api.vertical-agi.ai/edb/v1`
+- **Contact:** research@energygreendata.com for beta access
+
+**Beta Status Details:**
+- ✅ Security hardening validated (P0 tests passed)
+- ✅ Rate limiting and tier system active
+- ✅ Reproducibility guaranteed (same user + case + day = same score)
+- ⚠️ Evaluator focuses on validity detection (pass/fail) rather than continuous scoring
+- 📋 See [API_SCORING_CONTRACT.md](docs/API_SCORING_CONTRACT.md) for tier specifications
 
 **For early access to evaluation services:**  
 Contact: research@energygreendata.com
