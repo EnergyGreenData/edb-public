@@ -22,7 +22,7 @@
 | **Last verified** | 2026-01-14 |
 | **Domain** | Energy Systems & Critical Infrastructure |
 
-> 📋 **Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://zenodo.org/records/18269147)
+> 📋 **Paper:** [From Vertical AGI to Operational Readiness: Evaluating Governed Decision-Making with the Energy Decision Benchmark](https://zenodo.org/records/18269147)
 
 ---
 
@@ -239,7 +239,7 @@ If you use EDB in your research, please cite:
 }
 ```
 
-**Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://zenodo.org/records/18269147)
+**Paper:** [From Vertical AGI to Operational Readiness: Evaluating Governed Decision-Making with the Energy Decision Benchmark](https://zenodo.org/records/18269147)
 
 ---
 
@@ -343,7 +343,7 @@ If you use EDB in your research, please cite:
 }
 ```
 
-**Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://zenodo.org/records/18269147)
+**Paper:** [From Vertical AGI to Operational Readiness: Evaluating Governed Decision-Making with the Energy Decision Benchmark](https://zenodo.org/records/18269147)
 
 ---
 
