@@ -51,9 +51,9 @@ Example:
 ```json
 "dimension_1_logical_consistency": {
   "should_detect_contradiction": false,
-  "rationale": "Tarifa 2.0TD permite potencias hasta 15kW",
+  "rationale": "Tariff 2.0TD allows up to 15kW",
   "example": {
-    "description": "Tarifa 2.0TD es válida para potencia 4.6kW",
+    "description": "Tariff 2.0TD is valid for 4.6kW power",
     "note": "Illustrative example (non-exhaustive)"
   }
 }
@@ -75,10 +75,11 @@ To prevent benchmark gaming and protect evaluation integrity:
 
 ## Validation
 
-Validate dataset integrity:
+Validate dataset integrity using the JSON Schema:
 
 ```bash
-python ../scripts/validate_dataset.py --dataset edb-p-v1.0.json --schema schema.json
+# Using any JSON Schema validator
+jsonschema -i edb-p-v1.0.json schema.json
 ```
 
 ## Checksum

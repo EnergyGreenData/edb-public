@@ -7,10 +7,10 @@ date-released: 2026-01-15
 authors:
   - family-names: "Diaz-Gonzalez"
     given-names: "A. A."
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0009-0003-1404-6659"
     affiliation: "Energy Green Data"
     email: "a.diaz@energygreendata.com"
-repository-code: "https://github.com/EGD2024/edb-public"
+repository-code: "https://github.com/EnergyGreenData/edb-public"
 url: "https://vertical-agi.ai/benchmark-2025"
 abstract: >
   A reproducible benchmark for evaluating operational readiness of AI systems
@@ -29,7 +29,7 @@ license: MIT
 license-url: "https://opensource.org/licenses/MIT"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.XXXXXXX"
+    value: "10.5281/zenodo.18314615"
     description: "Zenodo DOI for v1.0.0 release"
 references:
   - type: article

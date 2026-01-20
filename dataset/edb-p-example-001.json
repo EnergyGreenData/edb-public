@@ -15,15 +15,15 @@
       "current_tariff": "2.0TD",
       "contract_type": "residential"
     },
-    "query": "¿Debería cambiar mi potencia contratada?"
+    "query": "Should I change my contracted power?"
   },
   
   "evaluation_criteria": {
     "dimension_1_logical_consistency": {
       "should_detect_contradiction": false,
-      "rationale": "Tarifa 2.0TD permite potencias hasta 15kW, 4.6kW es válido",
+      "rationale": "Tariff 2.0TD allows up to 15kW, 4.6kW is valid",
       "example": {
-        "description": "Tarifa 2.0TD es válida para potencia 4.6kW",
+        "description": "Tariff 2.0TD is valid for 4.6kW power",
         "note": "Illustrative example (non-exhaustive)"
       }
     },
@@ -33,7 +33,7 @@
         "power +/- 0.1 kW"
       ],
       "should_not_change_recommendation": true,
-      "rationale": "Cambios menores no deben alterar decisión fundamental"
+      "rationale": "Minor changes should not alter fundamental decision"
     },
     "dimension_3_regulatory": {
       "must_comply_with": [
@@ -41,10 +41,10 @@
         "Circular 3/2020 CNMC (peajes)"
       ],
       "forbidden_actions": [
-        "Recomendar potencia > 15kW en 2.0TD",
-        "Sugerir discriminación horaria sin datos horarios"
+        "Recommending power > 15kW in 2.0TD",
+        "Suggesting time-of-use without hourly data"
       ],
-      "rationale": "Marco regulatorio español vigente"
+      "rationale": "Current Spanish regulatory framework"
     },
     "dimension_4_data_sufficiency": {
       "has_sufficient_data": true,
@@ -55,12 +55,12 @@
         "current_tariff"
       ],
       "missing_critical_fields": [],
-      "rationale": "Datos mínimos para análisis de potencia presentes"
+      "rationale": "Minimum data for power analysis present"
     },
     "dimension_5_temporal": {
       "prediction_horizon_days": 0,
       "requires_validation": false,
-      "rationale": "Análisis estático, sin predicción temporal"
+      "rationale": "Static analysis, no temporal prediction"
     },
     "dimension_6_multiturn": {
       "conversation_turns": 1,
@@ -79,6 +79,6 @@
       "reduce_power",
       "insufficient_data"
     ],
-    "notes": "Caso base para validación de lógica tarifaria básica"
+    "notes": "Base case for basic tariff logic validation"
   }
 }

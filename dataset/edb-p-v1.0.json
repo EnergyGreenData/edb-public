@@ -35,7 +35,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -58,7 +58,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -81,7 +81,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -104,7 +104,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -127,7 +127,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -150,7 +150,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -173,7 +173,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -196,7 +196,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -219,7 +219,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -242,7 +242,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -265,7 +265,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -288,7 +288,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -311,7 +311,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -334,7 +334,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -357,7 +357,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -380,7 +380,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -403,7 +403,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -426,7 +426,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -449,7 +449,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -472,7 +472,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -495,7 +495,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -518,7 +518,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -541,7 +541,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -564,7 +564,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -587,7 +587,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -610,7 +610,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -633,7 +633,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -656,7 +656,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": true,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -679,7 +679,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -702,7 +702,7 @@
       "evaluation_criteria": {
         "logical_consistency": {
           "expects_contradiction": false,
-          "description": "Detectar contradicciones en configuración"
+          "description": "Detect contradictions in configuration"
         }
       }
     },
@@ -723,7 +723,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -744,7 +744,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -765,7 +765,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -786,7 +786,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -807,7 +807,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -828,7 +828,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -849,7 +849,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -870,7 +870,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -891,7 +891,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -912,7 +912,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -933,7 +933,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -954,7 +954,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -975,7 +975,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -996,7 +996,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1017,7 +1017,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1038,7 +1038,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1059,7 +1059,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1080,7 +1080,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1101,7 +1101,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1122,7 +1122,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1143,7 +1143,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1164,7 +1164,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1185,7 +1185,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1206,7 +1206,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": false,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1227,7 +1227,7 @@
       "evaluation_criteria": {
         "counterfactual_robustness": {
           "expects_change": true,
-          "description": "Evaluar impacto de variaciones"
+          "description": "Evaluate impact of variations"
         }
       }
     },
@@ -1248,7 +1248,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1269,7 +1269,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1290,7 +1290,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1311,7 +1311,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1332,7 +1332,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1353,7 +1353,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1374,7 +1374,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1395,7 +1395,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1416,7 +1416,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1437,7 +1437,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1458,7 +1458,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1479,7 +1479,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1500,7 +1500,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1521,7 +1521,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1542,7 +1542,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1563,7 +1563,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1584,7 +1584,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1605,7 +1605,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1626,7 +1626,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1647,7 +1647,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1668,7 +1668,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1689,7 +1689,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1710,7 +1710,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1731,7 +1731,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1752,7 +1752,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1773,7 +1773,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1794,7 +1794,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1815,7 +1815,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1836,7 +1836,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": true,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1857,7 +1857,7 @@
       "evaluation_criteria": {
         "regulatory_compliance": {
           "is_compliant": false,
-          "description": "Verificar cumplimiento normativo"
+          "description": "Verify regulatory compliance"
         }
       }
     },
@@ -1878,7 +1878,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -1899,7 +1899,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -1920,7 +1920,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -1941,7 +1941,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -1962,7 +1962,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -1983,7 +1983,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2004,7 +2004,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2025,7 +2025,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2046,7 +2046,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2067,7 +2067,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2088,7 +2088,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2109,7 +2109,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2130,7 +2130,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2151,7 +2151,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2172,7 +2172,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2193,7 +2193,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2214,7 +2214,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2235,7 +2235,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2256,7 +2256,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": true,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2277,7 +2277,7 @@
       "evaluation_criteria": {
         "data_sufficiency": {
           "has_sufficient_data": false,
-          "description": "Detectar datos insuficientes"
+          "description": "Detect insufficient data"
         }
       }
     },
@@ -2302,7 +2302,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2327,7 +2327,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "decrease",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2352,7 +2352,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "stable",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2377,7 +2377,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2402,7 +2402,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "decrease",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2427,7 +2427,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "stable",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2452,7 +2452,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2477,7 +2477,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "decrease",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2502,7 +2502,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "stable",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2527,7 +2527,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2552,7 +2552,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "decrease",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2577,7 +2577,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "stable",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2602,7 +2602,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2627,7 +2627,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "decrease",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2652,7 +2652,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "stable",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2677,7 +2677,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2702,7 +2702,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "decrease",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2727,7 +2727,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "stable",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2752,7 +2752,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2777,7 +2777,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "decrease",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2802,7 +2802,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "stable",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2827,7 +2827,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2852,7 +2852,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "decrease",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2877,7 +2877,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "stable",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2902,7 +2902,7 @@
       "evaluation_criteria": {
         "temporal_prediction": {
           "expected_trend": "increase",
-          "description": "Predecir tendencia temporal"
+          "description": "Predict temporal trend"
         }
       }
     },
@@ -2923,7 +2923,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -2944,7 +2944,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -2965,7 +2965,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -2986,7 +2986,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3007,7 +3007,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3028,7 +3028,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3049,7 +3049,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3070,7 +3070,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3091,7 +3091,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3112,7 +3112,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3133,7 +3133,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3154,7 +3154,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3175,7 +3175,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3196,7 +3196,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3217,7 +3217,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3238,7 +3238,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3259,7 +3259,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3280,7 +3280,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3301,7 +3301,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": true,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     },
@@ -3322,7 +3322,7 @@
       "evaluation_criteria": {
         "multiturn_coherence": {
           "expects_coherence": false,
-          "description": "Mantener coherencia multi-turno"
+          "description": "Maintain multi-turn coherence"
         }
       }
     }

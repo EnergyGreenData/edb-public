@@ -1,26 +1,26 @@
 <div align="center">
-  <img src="./docs/assets/EGD_negativo@2x.png" alt="Energy Green Data" width="300" style="margin: 20px 0;"/>
+  <h1>🔋 Energy Decision Benchmark</h1>
 </div>
 
 # Energy Decision Benchmark (EDB-P)
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18314615-blue)](https://doi.org/10.5281/zenodo.18314615)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Dataset: CC BY 4.0](https://img.shields.io/badge/Dataset-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
-**Módulo:** Energy Decision Benchmark (EDB)  
-**Categoría:** Public AI Evaluation Benchmark  
-**Proyecto:** Energy Green Data
+**Module:** Energy Decision Benchmark (EDB)  
+**Category:** Public AI Evaluation Benchmark  
+**Project:** Energy Green Data
 
-### Versión del Componente
+### Component Version
 
-| Campo | Valor |
+| Field | Value |
 |-------|-------|
-| **Versión** | 1.0.0 |
-| **Fuente de verdad** | `dataset/metadata.json` |
-| **Última verificación** | 2026-01-14 |
-| **Dominio** | Energy Systems & Critical Infrastructure |
+| **Version** | 1.0.0 |
+| **Source of truth** | `dataset/metadata.json` |
+| **Last verified** | 2026-01-14 |
+| **Domain** | Energy Systems & Critical Infrastructure |
 
 > 📋 **Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://www.researchgate.net/publication/395835564)
 
@@ -123,61 +123,34 @@ EDB evaluates six independent dimensions of operational readiness:
 git clone https://github.com/EnergyGreenData/edb-public.git
 cd edb-public
 
-# Install client
-pip install -r client/requirements.txt
-
-# Evaluate your system
+# Load dataset
 python -c "
-from client.edb_client import EDBClient, SystemResponse
+import json
+with open('dataset/edb-p-v1.0.json') as f:
+    cases = json.load(f)['test_cases']
+print(f'Loaded {len(cases)} test cases')
 
-# Initialize client
-client = EDBClient(api_key='your-api-key')
-
-# Get a test case
-case = client.get_case('edb-p-001')
-
-# Your system generates response
-response = SystemResponse(
-    decision='La configuración es válida',
-    reasoning='Tarifa 2.0TD permite hasta 15kW',
-    confidence=0.92
-)
-
-# Evaluate
-result = client.evaluate_case('edb-p-001', response)
-print(f'Score: {result[\"overall_score\"]:.2%}')
+# Example: inspect first case
+case = cases[0]
+print(f'Case: {case["case_id"]}')
+print(f'Dimension: {case["dimension"]}')
 "
-```
-
-See [`client/README.md`](client/README.md) for complete documentation.
 
 ---
 
-## ⚠️ API Status
+## Evaluation API
 
-**Note:** The evaluation API is currently in **controlled beta** with selected research partners.
+**The evaluation API is available for research partners.**
 
-**Current capabilities:**
-- ✅ **Browse dataset** - Available now (150 test cases)
-- ✅ **Download test cases** - Available now (JSON format)
-- ✅ **Review methodology** - Available now (full documentation)
-- ✅ **Automated evaluation** - Beta access (controlled)
+| Feature | Status |
+|---------|--------|
+| Browse dataset | ✅ Public (150 cases) |
+| Download test cases | ✅ Public (JSON) |
+| Automated evaluation | 🔒 Beta access |
 
 **API Access:**
-- **Beta Access:** Available for research partners and academic institutions
-- **Public Access:** Planned for Q2 2026 (pending evaluator improvements)
 - **Endpoint:** `https://api.vertical-agi.ai/edb/v1`
-- **Contact:** research@energygreendata.com for beta access
-
-**Beta Status Details:**
-- ✅ Security hardening validated (P0 tests passed)
-- ✅ Rate limiting and tier system active
-- ✅ Reproducibility guaranteed (same user + case + day = same score)
-- ⚠️ Evaluator focuses on validity detection (pass/fail) rather than continuous scoring
-- 📋 See [API_SCORING_CONTRACT.md](docs/API_SCORING_CONTRACT.md) for tier specifications
-
-**For early access to evaluation services:**  
-Contact: research@energygreendata.com
+- **Contact:** research@energygreendata.com
 
 ---
 
@@ -206,12 +179,14 @@ Contact: research@energygreendata.com
 ```
 edb-public/
 ├── dataset/              # 150 synthetic test cases + metadata
-├── client/               # Python client for API evaluation
-├── docs/                 # Methodology and API documentation
-└── CITATION.cff          # Academic citation metadata
+│   ├── edb-p-v1.0.json   # Full dataset
+│   ├── schema.json       # JSON Schema validation
+│   └── metadata.json     # Version and checksums
+├── CITATION.cff          # Academic citation metadata
+└── LICENSE               # MIT + CC BY 4.0
 ```
 
-**Note:** The evaluation engine and statistical analysis tools are operated as controlled services to protect benchmark integrity.
+**Note:** The evaluation engine is operated as a controlled service to protect benchmark integrity.
 
 ---
 
@@ -225,7 +200,7 @@ Each test case defines **evaluation_criteria** (not golden outputs):
     "dimension_1_logical_consistency": {
       "should_detect_contradiction": false,
       "example": {
-        "description": "Tarifa 2.0TD es válida para potencia 4.6kW",
+        "description": "Tariff 2.0TD is valid for 4.6kW power",
         "note": "Illustrative example (non-exhaustive)"
       }
     }
@@ -258,8 +233,8 @@ If you use EDB in your research, please cite:
   title         = {Energy Decision Benchmark (EDB-P): Public Dataset v1.0},
   year          = {2026},
   howpublished  = {Zenodo},
-  doi           = {10.5281/zenodo.XXXXXXX},
-  url           = {https://doi.org/10.5281/zenodo.XXXXXXX},
+  doi           = {10.5281/zenodo.18314615},
+  url           = {https://doi.org/10.5281/zenodo.18314615},
   note          = {\url{https://github.com/EnergyGreenData/edb-public}}
 }
 ```
@@ -277,58 +252,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-## Repository Structure (Detailed)
-
-```
-edb-public/
-├── README.md                          # This document
-├── LICENSE                            # MIT + CC BY 4.0
-├── CITATION.cff                       # Academic citation
-├── .gitignore
-│
-├── dataset/                           # Public dataset
-│   ├── README.md                      # Dataset documentation
-│   ├── edb-p-v1.0.json               # 150 test cases
-│   ├── edb-p-example-001.json        # Example test case
-│   ├── metadata.json                  # Version, stats, checksums
-│   └── schema.json                    # JSON Schema validation
-│
-├── client/                            # Evaluation client
-│   ├── edb_client.py                  # Python client for API
-│   ├── requirements.txt               # Client dependencies
-│   └── README.md                      # Client documentation
-│
-└── docs/                              # Documentation
-    ├── METHODOLOGY.md                 # Detailed methodology
-    ├── API_SCORING_CONTRACT.md        # API scoring specification by tier
-    ├── PAPER_LIMITATIONS_SECTION.md   # Limitations section for academic papers
-    └── WEB_DISCLAIMER.md              # Disclaimers for web/documentation
-```
-
-**Note:** The evaluation engine and statistical analysis tools are operated as controlled services to protect benchmark integrity. Systems are evaluated through the official API using the client provided in `client/`.
-
----
-
-## API Documentation
-
-### Scoring Contract
-
-The API provides three tiers of access with different levels of detail and rate limits. See [`docs/API_SCORING_CONTRACT.md`](docs/API_SCORING_CONTRACT.md) for complete specifications:
-
-- **Free Tier:** Public access, quantized scores, generic rate limit messages
-- **Research Tier:** Academic/research access, dimension scores included
-- **Internal Tier:** Full precision, debug information, higher rate limits
-
-### Beta Status
-
-The EDB API is currently in **controlled beta**. Key characteristics:
-
-- **Scoring Focus:** Validity detection (pass/fail) rather than continuous quality gradation
-- **Security:** Full hardening active (noise, rate limiting, tier filtering)
-- **Reproducibility:** Same user + same case + same day = same score
-- **Use Cases:** System validation, research, benchmarking
-
-See [`docs/WEB_DISCLAIMER.md`](docs/WEB_DISCLAIMER.md) for detailed beta status information.
 
 ---
 
@@ -414,8 +337,8 @@ If you use EDB in your research, please cite:
   title         = {Energy Decision Benchmark (EDB-P): Public Dataset v1.0},
   year          = {2026},
   howpublished  = {Zenodo},
-  doi           = {10.5281/zenodo.XXXXXXX},
-  url           = {https://doi.org/10.5281/zenodo.XXXXXXX},
+  doi           = {10.5281/zenodo.18314615},
+  url           = {https://doi.org/10.5281/zenodo.18314615},
   note          = {\url{https://github.com/EnergyGreenData/edb-public}}
 }
 ```
@@ -462,9 +385,7 @@ This benchmark was developed as part of research on deterministic AI for critica
 ---
 
 <p align="center">
-<img src="docs/assets/EGD.png" width="200">
-<br>
-<strong>Energy Green Data - Public Project</strong>
+<strong>Energy Green Data</strong>
 <br>
 © 2026 - Energy Decision Benchmark
 <br>
