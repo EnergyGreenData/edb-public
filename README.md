@@ -373,8 +373,7 @@ See [LICENSE](LICENSE) for details.
 
 - **Author:** Alejandro A. Díaz González
 - **Organization:** Energy Green Data
-- **Email:** a.diaz@energygreendata.com
-- **Website:** https://vertical-agi.ai/benchmark-2025
+- **Contact:** [vertical-agi.ai](https://vertical-agi.ai?source=edb-benchmark)
 
 ---
 
