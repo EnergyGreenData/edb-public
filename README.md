@@ -22,7 +22,7 @@
 | **Last verified** | 2026-01-14 |
 | **Domain** | Energy Systems & Critical Infrastructure |
 
-> 📋 **Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://www.researchgate.net/publication/395835564)
+> 📋 **Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://zenodo.org/records/18269147)
 
 ---
 
@@ -150,7 +150,7 @@ print(f'Dimension: {case["dimension"]}')
 
 **API Access:**
 - **Endpoint:** `https://api.vertical-agi.ai/edb/v1`
-- **Contact:** research@energygreendata.com
+- **Request access:** [vertical-agi.ai](https://vertical-agi.ai?source=edb-benchmark)
 
 ---
 
@@ -239,7 +239,7 @@ If you use EDB in your research, please cite:
 }
 ```
 
-**Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://www.researchgate.net/publication/395835564)
+**Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://zenodo.org/records/18269147)
 
 ---
 
@@ -343,7 +343,7 @@ If you use EDB in your research, please cite:
 }
 ```
 
-**Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://www.researchgate.net/publication/395835564)
+**Paper:** [Towards a Deterministic Vertical AGI for Energy Systems](https://zenodo.org/records/18269147)
 
 ---
 
@@ -356,7 +356,7 @@ We welcome contributions to improve the benchmark and documentation.
 **To contribute:**
 - Report issues or suggest improvements via GitHub Issues
 - Submit documentation improvements via Pull Requests
-- Contact research@energygreendata.com for research collaborations
+- Contact via [vertical-agi.ai](https://vertical-agi.ai) for research collaborations
 
 ---
 
