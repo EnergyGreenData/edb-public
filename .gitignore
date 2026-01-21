@@ -58,6 +58,9 @@ tmp/
 temp/
 *.tmp
 
+# Zenodo uploads (manual)
+*.zip
+
 # Do NOT ignore
 !analysis/results/.gitkeep
 !examples/expected_output.json
