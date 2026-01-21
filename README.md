@@ -4,7 +4,7 @@
 
 # Energy Decision Benchmark (EDB-P)
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18314615-blue)](https://doi.org/10.5281/zenodo.18314615)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18329494-blue)](https://doi.org/10.5281/zenodo.18329494)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Dataset: CC BY 4.0](https://img.shields.io/badge/Dataset-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -223,8 +223,8 @@ If you use EDB in your research, please cite:
   title         = {Energy Decision Benchmark (EDB-P): Public Dataset v1.0},
   year          = {2026},
   howpublished  = {Zenodo},
-  doi           = {10.5281/zenodo.18314615},
-  url           = {https://doi.org/10.5281/zenodo.18314615},
+  doi           = {10.5281/zenodo.18329494},
+  url           = {https://doi.org/10.5281/zenodo.18329494},
   note          = {\url{https://github.com/EnergyGreenData/edb-public}}
 }
 ```
