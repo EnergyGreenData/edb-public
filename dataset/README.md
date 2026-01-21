@@ -31,38 +31,22 @@ Each test case follows the JSON schema defined in `schema.json`:
     "context": {...},
     "query": "string"
   },
-  "evaluation_criteria": {
-    "dimension_1_logical_consistency": {...},
-    "dimension_2_counterfactual": {...},
-    "dimension_3_regulatory": {...},
-    "dimension_4_data_sufficiency": {...},
-    "dimension_5_temporal": {...},
-    "dimension_6_multiturn": {...}
-  },
   "metadata": {...}
 }
 ```
 
-## Evaluation Criteria (Not Golden Outputs)
+## Evaluation
 
-**Important:** `evaluation_criteria` defines **properties** that systems should exhibit, not exact outputs.
+Evaluation is performed server-side via the API. Systems are evaluated on 6 independent dimensions:
 
-Example:
-```json
-"dimension_1_logical_consistency": {
-  "should_detect_contradiction": false,
-  "rationale": "Tariff 2.0TD allows up to 15kW",
-  "example": {
-    "description": "Tariff 2.0TD is valid for 4.6kW power",
-    "note": "Illustrative example (non-exhaustive)"
-  }
-}
-```
+1. **Logical Consistency** - Detect contradictions in inputs
+2. **Counterfactual Robustness** - Stability under perturbations
+3. **Regulatory Compliance** - Legal boundary respect
+4. **Data Sufficiency Detection** - Identify missing data vs hallucinate
+5. **Temporal Prediction** - Validatable predictions
+6. **Multi-turn Coherence** - Conversational memory
 
-This means:
-- ✅ System should NOT flag this as contradictory
-- ✅ System can express this in any valid way
-- ❌ System does NOT need to match exact wording
+Evaluation criteria are **not published** to maintain benchmark integrity
 
 ## What is NOT Published
 

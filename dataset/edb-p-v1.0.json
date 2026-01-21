@@ -31,12 +31,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -54,12 +48,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -77,12 +65,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -100,12 +82,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -123,12 +99,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -146,12 +116,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -169,12 +133,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -192,12 +150,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -215,12 +167,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -238,12 +184,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -261,12 +201,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -284,12 +218,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -307,12 +235,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -330,12 +252,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -353,12 +269,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -376,12 +286,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -399,12 +303,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -422,12 +320,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -445,12 +337,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -468,12 +354,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -491,12 +371,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -514,12 +388,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -537,12 +405,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -560,12 +422,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -583,12 +439,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -606,12 +456,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -629,12 +473,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -652,12 +490,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": true,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -675,12 +507,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": true
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -698,12 +524,6 @@
         "contracted_power_p2": 5.75,
         "annual_consumption": 3500,
         "has_solar": false
-      },
-      "evaluation_criteria": {
-        "logical_consistency": {
-          "expects_contradiction": false,
-          "description": "Detect contradictions in configuration"
-        }
       }
     },
     {
@@ -719,12 +539,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -740,12 +554,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -761,12 +569,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -782,12 +584,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -803,12 +599,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -824,12 +614,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -845,12 +629,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -866,12 +644,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -887,12 +659,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -908,12 +674,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -929,12 +689,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -950,12 +704,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -971,12 +719,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -992,12 +734,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1013,12 +749,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1034,12 +764,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1055,12 +779,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1076,12 +794,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1097,12 +809,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1118,12 +824,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1139,12 +839,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1160,12 +854,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1181,12 +869,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1202,12 +884,6 @@
         "baseline_consumption": 4000,
         "solar_production": 0,
         "battery_capacity": 0
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": false,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1223,12 +899,6 @@
         "baseline_consumption": 4000,
         "solar_production": 2000,
         "battery_capacity": 10
-      },
-      "evaluation_criteria": {
-        "counterfactual_robustness": {
-          "expects_change": true,
-          "description": "Evaluate impact of variations"
-        }
       }
     },
     {
@@ -1244,12 +914,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1265,12 +929,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1286,12 +944,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1307,12 +959,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1328,12 +974,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1349,12 +989,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1370,12 +1004,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1391,12 +1019,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1412,12 +1034,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1433,12 +1049,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1454,12 +1064,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1475,12 +1079,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1496,12 +1094,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1517,12 +1109,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1538,12 +1124,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1559,12 +1139,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1580,12 +1154,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1601,12 +1169,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1622,12 +1184,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1643,12 +1199,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1664,12 +1214,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1685,12 +1229,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1706,12 +1244,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1727,12 +1259,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1748,12 +1274,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1769,12 +1289,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1790,12 +1304,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1811,12 +1319,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": false
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1832,12 +1334,6 @@
         "installation_power": 15,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": true,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1853,12 +1349,6 @@
         "installation_power": 25,
         "tariff": "2.0TD",
         "has_certificate": true
-      },
-      "evaluation_criteria": {
-        "regulatory_compliance": {
-          "is_compliant": false,
-          "description": "Verify regulatory compliance"
-        }
       }
     },
     {
@@ -1874,12 +1364,6 @@
         "cups": "ES0022...",
         "consumption": null,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -1895,12 +1379,6 @@
         "cups": null,
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -1916,12 +1394,6 @@
         "cups": "ES0022...",
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -1937,12 +1409,6 @@
         "cups": null,
         "consumption": null,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -1958,12 +1424,6 @@
         "cups": "ES0022...",
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -1979,12 +1439,6 @@
         "cups": null,
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2000,12 +1454,6 @@
         "cups": "ES0022...",
         "consumption": null,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2021,12 +1469,6 @@
         "cups": null,
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2042,12 +1484,6 @@
         "cups": "ES0022...",
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2063,12 +1499,6 @@
         "cups": null,
         "consumption": null,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2084,12 +1514,6 @@
         "cups": "ES0022...",
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2105,12 +1529,6 @@
         "cups": null,
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2126,12 +1544,6 @@
         "cups": "ES0022...",
         "consumption": null,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2147,12 +1559,6 @@
         "cups": null,
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2168,12 +1574,6 @@
         "cups": "ES0022...",
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2189,12 +1589,6 @@
         "cups": null,
         "consumption": null,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2210,12 +1604,6 @@
         "cups": "ES0022...",
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2231,12 +1619,6 @@
         "cups": null,
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2252,12 +1634,6 @@
         "cups": "ES0022...",
         "consumption": null,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": true,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2273,12 +1649,6 @@
         "cups": null,
         "consumption": 3500,
         "tariff": "2.0TD"
-      },
-      "evaluation_criteria": {
-        "data_sufficiency": {
-          "has_sufficient_data": false,
-          "description": "Detect insufficient data"
-        }
       }
     },
     {
@@ -2298,12 +1668,6 @@
         ],
         "season": "summer",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2323,12 +1687,6 @@
         ],
         "season": "winter",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "decrease",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2348,12 +1706,6 @@
         ],
         "season": "summer",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "stable",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2373,12 +1725,6 @@
         ],
         "season": "winter",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2398,12 +1744,6 @@
         ],
         "season": "summer",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "decrease",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2423,12 +1763,6 @@
         ],
         "season": "winter",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "stable",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2448,12 +1782,6 @@
         ],
         "season": "summer",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2473,12 +1801,6 @@
         ],
         "season": "winter",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "decrease",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2498,12 +1820,6 @@
         ],
         "season": "summer",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "stable",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2523,12 +1839,6 @@
         ],
         "season": "winter",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2548,12 +1858,6 @@
         ],
         "season": "summer",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "decrease",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2573,12 +1877,6 @@
         ],
         "season": "winter",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "stable",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2598,12 +1896,6 @@
         ],
         "season": "summer",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2623,12 +1915,6 @@
         ],
         "season": "winter",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "decrease",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2648,12 +1934,6 @@
         ],
         "season": "summer",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "stable",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2673,12 +1953,6 @@
         ],
         "season": "winter",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2698,12 +1972,6 @@
         ],
         "season": "summer",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "decrease",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2723,12 +1991,6 @@
         ],
         "season": "winter",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "stable",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2748,12 +2010,6 @@
         ],
         "season": "summer",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2773,12 +2029,6 @@
         ],
         "season": "winter",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "decrease",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2798,12 +2048,6 @@
         ],
         "season": "summer",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "stable",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2823,12 +2067,6 @@
         ],
         "season": "winter",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2848,12 +2086,6 @@
         ],
         "season": "summer",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "decrease",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2873,12 +2105,6 @@
         ],
         "season": "winter",
         "solar_installed": false
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "stable",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2898,12 +2124,6 @@
         ],
         "season": "summer",
         "solar_installed": true
-      },
-      "evaluation_criteria": {
-        "temporal_prediction": {
-          "expected_trend": "increase",
-          "description": "Predict temporal trend"
-        }
       }
     },
     {
@@ -2919,12 +2139,6 @@
         "previous_decision": "accept",
         "new_information": "solar_added",
         "context_changed": true
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -2940,12 +2154,6 @@
         "previous_decision": "reject",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -2961,12 +2169,6 @@
         "previous_decision": "accept",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -2982,12 +2184,6 @@
         "previous_decision": "reject",
         "new_information": "solar_added",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3003,12 +2199,6 @@
         "previous_decision": "accept",
         "new_information": "none",
         "context_changed": true
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3024,12 +2214,6 @@
         "previous_decision": "reject",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3045,12 +2229,6 @@
         "previous_decision": "accept",
         "new_information": "solar_added",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3066,12 +2244,6 @@
         "previous_decision": "reject",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3087,12 +2259,6 @@
         "previous_decision": "accept",
         "new_information": "none",
         "context_changed": true
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3108,12 +2274,6 @@
         "previous_decision": "reject",
         "new_information": "solar_added",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3129,12 +2289,6 @@
         "previous_decision": "accept",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3150,12 +2304,6 @@
         "previous_decision": "reject",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3171,12 +2319,6 @@
         "previous_decision": "accept",
         "new_information": "solar_added",
         "context_changed": true
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3192,12 +2334,6 @@
         "previous_decision": "reject",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3213,12 +2349,6 @@
         "previous_decision": "accept",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3234,12 +2364,6 @@
         "previous_decision": "reject",
         "new_information": "solar_added",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3255,12 +2379,6 @@
         "previous_decision": "accept",
         "new_information": "none",
         "context_changed": true
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3276,12 +2394,6 @@
         "previous_decision": "reject",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3297,12 +2409,6 @@
         "previous_decision": "accept",
         "new_information": "solar_added",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": true,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     },
     {
@@ -3318,12 +2424,6 @@
         "previous_decision": "reject",
         "new_information": "none",
         "context_changed": false
-      },
-      "evaluation_criteria": {
-        "multiturn_coherence": {
-          "expects_coherence": false,
-          "description": "Maintain multi-turn coherence"
-        }
       }
     }
   ]

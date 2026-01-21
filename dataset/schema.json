@@ -1,10 +1,10 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/EGD2024/edb-public/schema/v1.0.0",
-  "title": "EDB-P Test Case Schema",
-  "description": "JSON Schema for Energy Decision Benchmark test cases",
+  "title": "EDB-P Test Case Schema (Public)",
+  "description": "JSON Schema for Energy Decision Benchmark public test cases. Note: evaluation_criteria are withheld for benchmark integrity.",
   "type": "object",
-  "required": ["id", "version", "domain", "scenario_type", "difficulty", "input", "evaluation_criteria", "metadata"],
+  "required": ["id", "version", "domain", "scenario_type", "difficulty", "input", "metadata"],
   "properties": {
     "id": {
       "type": "string",
@@ -44,127 +44,6 @@
         }
       }
     },
-    "evaluation_criteria": {
-      "type": "object",
-      "required": [
-        "dimension_1_logical_consistency",
-        "dimension_2_counterfactual",
-        "dimension_3_regulatory",
-        "dimension_4_data_sufficiency",
-        "dimension_5_temporal",
-        "dimension_6_multiturn"
-      ],
-      "properties": {
-        "dimension_1_logical_consistency": {
-          "type": "object",
-          "required": ["should_detect_contradiction", "rationale"],
-          "properties": {
-            "should_detect_contradiction": {
-              "type": "boolean"
-            },
-            "rationale": {
-              "type": "string"
-            },
-            "example": {
-              "type": "object",
-              "properties": {
-                "description": {"type": "string"},
-                "note": {"type": "string", "const": "Illustrative example (non-exhaustive)"}
-              }
-            }
-          }
-        },
-        "dimension_2_counterfactual": {
-          "type": "object",
-          "required": ["should_be_robust_to", "should_not_change_recommendation", "rationale"],
-          "properties": {
-            "should_be_robust_to": {
-              "type": "array",
-              "items": {"type": "string"}
-            },
-            "should_not_change_recommendation": {
-              "type": "boolean"
-            },
-            "rationale": {
-              "type": "string"
-            }
-          }
-        },
-        "dimension_3_regulatory": {
-          "type": "object",
-          "required": ["must_comply_with", "forbidden_actions", "rationale"],
-          "properties": {
-            "must_comply_with": {
-              "type": "array",
-              "items": {"type": "string"}
-            },
-            "forbidden_actions": {
-              "type": "array",
-              "items": {"type": "string"}
-            },
-            "rationale": {
-              "type": "string"
-            }
-          }
-        },
-        "dimension_4_data_sufficiency": {
-          "type": "object",
-          "required": ["has_sufficient_data", "critical_fields_present", "missing_critical_fields", "rationale"],
-          "properties": {
-            "has_sufficient_data": {
-              "type": "boolean"
-            },
-            "critical_fields_present": {
-              "type": "array",
-              "items": {"type": "string"}
-            },
-            "missing_critical_fields": {
-              "type": "array",
-              "items": {"type": "string"}
-            },
-            "rationale": {
-              "type": "string"
-            }
-          }
-        },
-        "dimension_5_temporal": {
-          "type": "object",
-          "required": ["prediction_horizon_days", "requires_validation", "rationale"],
-          "properties": {
-            "prediction_horizon_days": {
-              "type": "integer",
-              "minimum": 0
-            },
-            "requires_validation": {
-              "type": "boolean"
-            },
-            "rationale": {
-              "type": "string"
-            }
-          }
-        },
-        "dimension_6_multiturn": {
-          "type": "object",
-          "required": ["conversation_turns", "requires_memory", "context_dependencies", "rationale"],
-          "properties": {
-            "conversation_turns": {
-              "type": "integer",
-              "minimum": 1
-            },
-            "requires_memory": {
-              "type": "boolean"
-            },
-            "context_dependencies": {
-              "type": "array",
-              "items": {"type": "string"}
-            },
-            "rationale": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    },
     "metadata": {
       "type": "object",
       "required": ["created_at", "difficulty_score", "tags"],
@@ -179,10 +58,6 @@
           "maximum": 1
         },
         "tags": {
-          "type": "array",
-          "items": {"type": "string"}
-        },
-        "expected_decision_types": {
           "type": "array",
           "items": {"type": "string"}
         },

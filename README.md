@@ -58,7 +58,7 @@ This benchmark measures whether a system exhibits responsible decision-making pr
 | **EDB-P** | Public dataset (150 cases) | Reproducible evaluation |
 | **EDB-X** | Reserved adversarial set (50 cases) | Internal validation only |
 | **SystemAdapter** | Interface for evaluated systems | Black-box contract |
-| **evaluation_criteria** | Property-based test specifications | Not golden outputs |
+| **evaluation** | Server-side scoring via API | Black-box evaluation |
 
 ### Forbidden Inferences
 
@@ -149,7 +149,7 @@ print(f'Dimension: {case["dimension"]}')
 | Automated evaluation | 🔒 Beta access |
 
 **API Access:**
-- **Endpoint:** `https://api.vertical-agi.ai/edb/v1`
+- **Endpoint:** `https://api.watioverse.com`
 - **Request access:** [vertical-agi.ai](https://vertical-agi.ai?source=edb-benchmark)
 
 ---
@@ -190,25 +190,15 @@ edb-public/
 
 ---
 
-## Evaluation Criteria
+## Evaluation Process
 
-Each test case defines **evaluation_criteria** (not golden outputs):
+Evaluation is performed **server-side** via the API to maintain benchmark integrity:
 
-```json
-{
-  "evaluation_criteria": {
-    "dimension_1_logical_consistency": {
-      "should_detect_contradiction": false,
-      "example": {
-        "description": "Tariff 2.0TD is valid for 4.6kW power",
-        "note": "Illustrative example (non-exhaustive)"
-      }
-    }
-  }
-}
-```
+1. Submit system responses via `/evaluate/case`
+2. Receive scores across 6 independent dimensions
+3. Criteria are **not published** to prevent gaming
 
-**Key principle:** Criteria define properties, not solutions.
+**Key principle:** Black-box evaluation ensures fair comparison.
 
 ---
 

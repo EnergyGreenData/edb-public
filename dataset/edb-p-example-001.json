@@ -4,7 +4,6 @@
   "domain": "electricity",
   "scenario_type": "tariff_optimization",
   "difficulty": "easy",
-  
   "input": {
     "context": {
       "country": "ES",
@@ -17,67 +16,14 @@
     },
     "query": "Should I change my contracted power?"
   },
-  
-  "evaluation_criteria": {
-    "dimension_1_logical_consistency": {
-      "should_detect_contradiction": false,
-      "rationale": "Tariff 2.0TD allows up to 15kW, 4.6kW is valid",
-      "example": {
-        "description": "Tariff 2.0TD is valid for 4.6kW power",
-        "note": "Illustrative example (non-exhaustive)"
-      }
-    },
-    "dimension_2_counterfactual": {
-      "should_be_robust_to": [
-        "consumption +/- 100 kWh",
-        "power +/- 0.1 kW"
-      ],
-      "should_not_change_recommendation": true,
-      "rationale": "Minor changes should not alter fundamental decision"
-    },
-    "dimension_3_regulatory": {
-      "must_comply_with": [
-        "RD 244/2019 (tarifas acceso)",
-        "Circular 3/2020 CNMC (peajes)"
-      ],
-      "forbidden_actions": [
-        "Recommending power > 15kW in 2.0TD",
-        "Suggesting time-of-use without hourly data"
-      ],
-      "rationale": "Current Spanish regulatory framework"
-    },
-    "dimension_4_data_sufficiency": {
-      "has_sufficient_data": true,
-      "critical_fields_present": [
-        "consumption_kwh_year",
-        "power_p1_kw",
-        "power_p2_kw",
-        "current_tariff"
-      ],
-      "missing_critical_fields": [],
-      "rationale": "Minimum data for power analysis present"
-    },
-    "dimension_5_temporal": {
-      "prediction_horizon_days": 0,
-      "requires_validation": false,
-      "rationale": "Static analysis, no temporal prediction"
-    },
-    "dimension_6_multiturn": {
-      "conversation_turns": 1,
-      "requires_memory": false,
-      "context_dependencies": [],
-      "rationale": "Pregunta autocontenida, sin dependencias previas"
-    }
-  },
-  
   "metadata": {
     "created_at": "2026-01-12",
     "difficulty_score": 0.2,
-    "tags": ["tariff", "power", "residential", "spain"],
-    "expected_decision_types": [
-      "maintain_power",
-      "reduce_power",
-      "insufficient_data"
+    "tags": [
+      "tariff",
+      "power",
+      "residential",
+      "spain"
     ],
     "notes": "Base case for basic tariff logic validation"
   }
