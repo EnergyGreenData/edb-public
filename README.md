@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🔋 Energy Decision Benchmark</h1>
+  <h1>Energy Decision Benchmark</h1>
 </div>
 
 # Energy Decision Benchmark (EDB-P)
