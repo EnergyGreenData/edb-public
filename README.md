@@ -178,15 +178,13 @@ print(f'Dimension: {case["dimension"]}')
 
 ## Repository Structure
 
-```
-edb-public/
-├── dataset/              # 150 synthetic test cases + metadata
-│   ├── edb-p-v1.0.json   # Full dataset
-│   ├── schema.json       # JSON Schema validation
-│   └── metadata.json     # Version and checksums
-├── CITATION.cff          # Academic citation metadata
-└── LICENSE               # MIT + CC BY 4.0
-```
+| File | Description |
+|------|-------------|
+| `dataset/edb-p-v1.0.json` | Full dataset (150 test cases) |
+| `dataset/schema.json` | JSON Schema validation |
+| `dataset/metadata.json` | Version and checksums |
+| `CITATION.cff` | Academic citation metadata |
+| `LICENSE` | MIT + CC BY 4.0 |
 
 **Note:** The evaluation engine is operated as a controlled service to protect benchmark integrity.
 
