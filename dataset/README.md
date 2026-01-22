@@ -18,22 +18,34 @@ The **Energy Decision Benchmark - Public (EDB-P)** dataset contains 150 syntheti
 
 ## File Format
 
-Each test case follows the JSON schema defined in `schema.json`:
+Each test case in `edb-p-v1.0.json` follows this structure:
 
 ```json
 {
-  "id": "edb-p-XXX",
-  "version": "1.0.0",
-  "domain": "electricity|gas|solar|mobility|water|equipment",
-  "scenario_type": "string",
-  "difficulty": "easy|medium|hard",
-  "input": {
-    "context": {...},
-    "query": "string"
+  "case_id": "edb-p-XXX",
+  "dimension": "logical_consistency|counterfactual_robustness|regulatory_compliance|data_sufficiency|temporal_prediction|multiturn_coherence",
+  "scenario_type": "energy_decision",
+  "context": {
+    "country": "ES",
+    "domain": "electricity|gas|solar|mobility|water|equipment",
+    "user_type": "residential|commercial|industrial"
   },
-  "metadata": {...}
+  "input_data": { ... }  // Structure varies by dimension (see below)
 }
 ```
+
+### Input Data Structure by Dimension
+
+| Dimension | Fields in `input_data` |
+|-----------|------------------------|
+| **logical_consistency** | `tariff`, `contracted_power_p1`, `contracted_power_p2`, `annual_consumption`, `has_solar` |
+| **counterfactual_robustness** | `baseline_consumption`, `solar_production`, `battery_capacity` |
+| **regulatory_compliance** | `installation_power`, `tariff`, `has_certificate` |
+| **data_sufficiency** | `income_data`, `consumption_data`, `missing_fields` |
+| **temporal_prediction** | `historical_consumption[]`, `season`, `solar_installed` |
+| **multiturn_coherence** | `previous_decision`, `new_information`, `context_changed` |
+
+> **Note:** Each dimension tests different aspects of decision-making, hence the varied input structures.
 
 ## Evaluation
 

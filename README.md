@@ -146,11 +146,13 @@ print(f'Dimension: {case["dimension"]}')
 |---------|--------|
 | Browse dataset | ✅ Public (150 cases) |
 | Download test cases | ✅ Public (JSON) |
-| Automated evaluation | 🔒 Beta access |
+| Automated evaluation | ✅ Available (requires API key) |
 
 **API Access:**
 - **Endpoint:** `https://api.watioverse.com`
-- **Request access:** [vertical-agi.ai](https://vertical-agi.ai?source=edb-benchmark)
+- **Get your API key:** [Request API Access](https://vertical-agi.ai/benchmark-2025#api-access)
+
+> 🔑 **Quick access:** Fill out the form and receive your API key automatically via email within seconds.
 
 ---
 

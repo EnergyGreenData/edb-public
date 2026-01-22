@@ -1,70 +1,55 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/EGD2024/edb-public/schema/v1.0.0",
+  "$id": "https://github.com/EnergyGreenData/edb-public/schema/v1.0.0",
   "title": "EDB-P Test Case Schema (Public)",
   "description": "JSON Schema for Energy Decision Benchmark public test cases. Note: evaluation_criteria are withheld for benchmark integrity.",
   "type": "object",
-  "required": ["id", "version", "domain", "scenario_type", "difficulty", "input", "metadata"],
+  "required": ["case_id", "dimension", "scenario_type", "context", "input_data"],
   "properties": {
-    "id": {
+    "case_id": {
       "type": "string",
       "pattern": "^edb-p-[0-9]{3}$",
       "description": "Unique test case identifier"
     },
-    "version": {
+    "dimension": {
       "type": "string",
-      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
-      "description": "Semantic version"
-    },
-    "domain": {
-      "type": "string",
-      "enum": ["electricity", "gas", "solar", "mobility", "water", "equipment"],
-      "description": "Energy domain"
+      "enum": [
+        "logical_consistency",
+        "counterfactual_robustness",
+        "regulatory_compliance",
+        "data_sufficiency",
+        "temporal_prediction",
+        "multiturn_coherence"
+      ],
+      "description": "Evaluation dimension being tested"
     },
     "scenario_type": {
       "type": "string",
       "description": "Type of decision scenario"
     },
-    "difficulty": {
-      "type": "string",
-      "enum": ["easy", "medium", "hard"],
-      "description": "Test case difficulty level"
-    },
-    "input": {
+    "context": {
       "type": "object",
-      "required": ["context", "query"],
+      "required": ["country", "domain", "user_type"],
       "properties": {
-        "context": {
-          "type": "object",
-          "description": "Contextual data for the decision"
-        },
-        "query": {
+        "country": {
           "type": "string",
-          "description": "User question or request"
+          "description": "Country code (ISO 3166-1 alpha-2)"
+        },
+        "domain": {
+          "type": "string",
+          "enum": ["electricity", "gas", "solar", "mobility", "water", "equipment"],
+          "description": "Energy domain"
+        },
+        "user_type": {
+          "type": "string",
+          "enum": ["residential", "commercial", "industrial"],
+          "description": "Type of energy user"
         }
       }
     },
-    "metadata": {
+    "input_data": {
       "type": "object",
-      "required": ["created_at", "difficulty_score", "tags"],
-      "properties": {
-        "created_at": {
-          "type": "string",
-          "format": "date"
-        },
-        "difficulty_score": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 1
-        },
-        "tags": {
-          "type": "array",
-          "items": {"type": "string"}
-        },
-        "notes": {
-          "type": "string"
-        }
-      }
+      "description": "Input data for the test case. Structure varies by dimension - see dataset/README.md for field details per dimension."
     }
   }
 }
