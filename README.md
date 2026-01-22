@@ -24,6 +24,8 @@
 
 > 📋 **Paper:** [From Vertical AGI to Operational Readiness: Evaluating Governed Decision-Making with the Energy Decision Benchmark](https://zenodo.org/records/18269147)
 
+> 🔑 **API Access:** [Request your API key here](https://vertical-agi.ai/benchmark-2025#api-access) — receive it instantly via email
+
 ---
 
 ## Scope and Non-Goals
@@ -228,8 +230,6 @@ If you use EDB in your research, please cite:
   note          = {\url{https://github.com/EnergyGreenData/edb-public}}
 }
 ```
-
-**Paper:** [From Vertical AGI to Operational Readiness: Evaluating Governed Decision-Making with the Energy Decision Benchmark](https://zenodo.org/records/18269147)
 
 ---
 
