@@ -22,7 +22,7 @@
 | **Last verified** | 2026-01-14 |
 | **Domain** | Energy Systems & Critical Infrastructure |
 
-> 📋 **Paper:** [From Vertical AGI to Operational Readiness: Evaluating Governed Decision-Making with the Energy Decision Benchmark](https://zenodo.org/records/18269147)
+> 📋 **Paper:** [From Vertical AGI to Operational Readiness: Evaluating Governed Decision-Making with the Energy Decision Benchmark](https://zenodo.org/records/18269147) | [ResearchGate](https://www.researchgate.net/publication/400023175)
 
 > 🔑 **API Access:** [Request your API key here](https://vertical-agi.ai/benchmark-2025#api-access) — receive it instantly via email
 
