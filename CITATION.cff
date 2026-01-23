@@ -43,3 +43,7 @@ references:
     year: 2025
     doi: "10.5281/zenodo.17178977"
     url: "https://doi.org/10.5281/zenodo.17178977"
+    identifiers:
+      - type: url
+        value: "https://www.researchgate.net/publication/395835564"
+        description: "ResearchGate publication"
