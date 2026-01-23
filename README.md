@@ -137,6 +137,7 @@ case = cases[0]
 print(f'Case: {case["case_id"]}')
 print(f'Dimension: {case["dimension"]}')
 "
+```
 
 ---
 
